@@ -1,0 +1,39 @@
+/* START !IMPORTANT */
+.active{
+    background-color: rgb(143, 34, 34) !important;
+}
+/* END !IMPORTANT */
+
+
+body {
+    background-color: #ffffff;
+}
+
+.NavHeader{
+    font-weight: bold;
+}
+
+.Footertxt {
+    color: rgb(133, 132, 132);
+}
+
+.Footertxt:hover {
+    color: rgb(192, 192, 192);
+}
+
+.NavHeader:hover {
+    color: rgb(143, 34, 34);
+} 
+
+.NavHeader{
+    color: aliceblue;
+}
+
+.imgrad{
+    border-radius: 10px;
+    border: 2px solid rgb(31, 31, 31);
+}
+
+.titlecards{
+    font-weight: bold;
+}
