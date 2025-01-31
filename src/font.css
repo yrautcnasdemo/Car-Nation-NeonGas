@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Russo_one-reg";
+    src: url(Assets/fonts/Russo_One/Russo_One.ttf);
+}
+
+@font-face {
+    font-family: "BebasNeue-reg";
+    src: url(Assets/fonts/Bebas_neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RoadRage-reg";
+    src: url(Assets/fonts/Road_Rage/RoadRage-Regular.ttf);
+}
