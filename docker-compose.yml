@@ -1,9 +1,9 @@
 services:
     php:
         image: php:8.3-apache
-        container_name: Cars_Nation_php8_3
+        container_name: Car_Nation_php8_3
         ports:
-            - "8010:80" # on définit le port pour accéder à l'application (localhost:8001)
+            - "8011:80" # on définit le port pour accéder à l'application (localhost:8001)
         volumes:
             - ./src:/var/www/html # on monte le dossier courant dans le dossier /var/www/html du container
         build:
@@ -11,11 +11,11 @@ services:
             dockerfile: Dockerfile
     db:
         image: mysql:8.0
-        container_name: Cars_Nation_mysql8_0
+        container_name: Car_Nation_mysql8_0
         command: --default-authentication-plugin=mysql_native_password
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: cars_nation
+            MYSQL_DATABASE: car_nation
             MYSQL_USER: test
             MYSQL_PASSWORD: test
         volumes:
@@ -25,7 +25,7 @@ services:
             - "3308:3316"
     phpma:
         image: phpmyadmin/phpmyadmin
-        container_name: Cars_Nation_phpmyadmin
+        container_name: Car_Nation_phpmyadmin
         environment:
             PMA_ARBITRARY: 1
             PMA_HOST: db
