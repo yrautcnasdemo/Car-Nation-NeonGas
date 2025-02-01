@@ -14,6 +14,23 @@
     background-size: cover;
 }
 
-.img-section {
+.second-section figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+}
+
+.second-section .intro{
     max-width: 600px;
+}
+
+.second-section figure figcaption img {
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.178);
 }
